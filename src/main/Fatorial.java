@@ -61,7 +61,8 @@ public class Fatorial extends javax.swing.JFrame {
             }
         });
 
-        txtConta.setText("<html>0</html>");
+        txtConta.setFont(new java.awt.Font("Comic Sans MS", 2, 24)); // NOI18N
+        txtConta.setText("<html>1</html>");
         txtConta.setVerticalAlignment(javax.swing.SwingConstants.TOP);
 
         jLabel3.setFont(new java.awt.Font("Times New Roman", 1, 24)); // NOI18N
@@ -114,7 +115,7 @@ public class Fatorial extends javax.swing.JFrame {
                         .addComponent(resultadoFatorial)))
                 .addGap(18, 18, 18)
                 .addComponent(btnSair)
-                .addContainerGap(49, Short.MAX_VALUE))
+                .addContainerGap(32, Short.MAX_VALUE))
         );
 
         pack();
